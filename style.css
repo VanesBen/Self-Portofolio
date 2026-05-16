@@ -142,3 +142,53 @@ body {
     }
 }
 
+/* Project */
+.project__img {
+    background: url(./assets/image/project-img.png);
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+}
+
+.project__title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.project {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.project__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.project__card {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+
+}
+
+.portofolio__link {
+    text-decoration: none;
+    color: #7888DE;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .project__container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 30px;
+    }
+
+}
+
